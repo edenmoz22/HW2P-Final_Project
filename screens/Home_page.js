@@ -23,9 +23,6 @@ export const Home_page = () =>
                 העלאת קובץ לסריקה
             </Main_button>
 
-            <Main_button  onPress={()=> setOutputText("כפתור 3 עובד")}>
-                אימון בסיס נתונים
-            </Main_button>
 
       </View>
     
