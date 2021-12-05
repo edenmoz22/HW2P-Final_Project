@@ -15,7 +15,9 @@ export default StyleSheet.create({
   },
   image: {
     width: windowWidth,
-    height: 300,
+    height: 400,
+    padding:100,
+
 
   },
   containerButtons:{
@@ -24,28 +26,60 @@ export default StyleSheet.create({
       borderColor: '#AD67EA',
       justifyContent: 'space-evenly',
       width: '80%',
-      height: '60%'
+      height: '60%',
 
   
   },
+  //הגדרות של הכפתור והמסגרת ביחס למסך
   containerButton:{
-    borderRadius: 8,
-    borderWidth: 2,
+    borderRadius: 50,
+    borderWidth: 5,
     borderColor: '#AD67EA',
     width:windowWidth/2,
     height:windowHeight/10,
     justifyContent:'space-evenly',
     textAlign:'center',
+    padding:'200',
+
 
 },
-buttonstyle: {
-  width: '100%',
-  color: '#fff',
-  backgroundColor: 'red',
-},
+//Body text 
 textstyle: {
     color: '#AD67EA',
-    fontSize: 16,
+    fontSize: 18,
     textAlign:'center',
 },
+SelectContainer:
+{
+  width:300,
+  maxWidth:'80%',
+  alignItems:'center',
+  shadowColor:'black',
+  shadowOffset:{width:0,height:2},
+  shadowRadius:6,
+  shadowOpacity:0.26,
+  elevation:8,
+  backgroundColor:'white',
+  padding:20,
+  borderRadius:10
+},
+SelectContainer_buttons:{
+  flexDirection:'row',
+  width:'100%',
+  borderColor:'#AD67EA',
+  justifyContent:'space-between',
+  paddingHorizontal:15
+
+},
+inputText:{
+  height:30,
+  width:50,
+  borderBottomColor:'grey',
+  borderBottomWidth: 1,
+  marginVertical:10,
+  textAlign:'center',
+
+},
+
+
   });

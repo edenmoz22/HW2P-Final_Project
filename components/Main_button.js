@@ -5,7 +5,7 @@ import Styles from '../Styles';
 export const Main_button = (props) =>
  {
   return (
-      <TouchableOpacity onPress={props.onPress}>
+      <TouchableOpacity activeOpacity={0.6} style={{...Styles.containerButtons , ...props.style}} onPress={props.onPress}>
         <View style={Styles.containerButton}>
             <Text style={Styles.textstyle}>{props.children}</Text>
         </View>
