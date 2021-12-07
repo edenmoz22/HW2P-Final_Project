@@ -24,7 +24,7 @@ export default StyleSheet.create({
       flex: 1,
       borderRadius: 12,
       borderColor: '#AD67EA',
-      justifyContent: 'space-evenly',
+      // justifyContent: 'space-evenly',
       width: '80%',
       height: '60%',
 
@@ -37,38 +37,46 @@ export default StyleSheet.create({
     borderColor: '#AD67EA',
     width:windowWidth/2,
     height:windowHeight/10,
-    justifyContent:'space-evenly',
+    // justifyContent:'space-evenly',
     textAlign:'center',
-    padding:'200',
-
 
 },
+smallbuttonupload:
+{
+  width:windowWidth/2.5,
+},
+
 //Body text 
 textstyle: {
+
+
     color: '#AD67EA',
     fontSize: 18,
     textAlign:'center',
 },
 SelectContainer:
 {
-  width:300,
+  width:400,
+  height:600,
   maxWidth:'80%',
-  alignItems:'center',
   shadowColor:'black',
-  shadowOffset:{width:0,height:2},
-  shadowRadius:6,
+  shadowOffset:{width:2,height:2},
+  shadowRadius:10,
   shadowOpacity:0.26,
   elevation:8,
   backgroundColor:'white',
-  padding:20,
-  borderRadius:10
+  borderRadius:70,
+  alignItems:'center',
+  justifyContent:'center',
+  marginTop:10,
+
 },
-SelectContainer_buttons:{
-  flexDirection:'row',
+SelectContainer_buttons:
+{
+  flexDirection:'column',
   width:'100%',
   borderColor:'#AD67EA',
-  justifyContent:'space-between',
-  paddingHorizontal:15
+  justifyContent:'center',
 
 },
 inputText:{
