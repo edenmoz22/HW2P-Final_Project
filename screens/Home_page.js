@@ -17,7 +17,7 @@ export const Home_page = () =>
             צפייה בתיקיות 
             </Main_button>
 
-            <Main_button >
+            <Main_button onPress= {() =>{}} >
                 העלאת קובץ לסריקה
             </Main_button>
 
