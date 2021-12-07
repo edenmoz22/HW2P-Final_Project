@@ -1,15 +1,14 @@
-/*import React from 'react';
+import React from 'react';
 import { TouchableOpacity, View, Text } from 'react-native';
 import Styles from '../Styles';
 
 
-export const Selec_Box = (props) =>
+
+export const Select_Box = (props) =>
  {
   return (
-      <TouchableOpacity onPress={props.onPress}>
-        <View style={{...Styles.SelectContainer, ...Styles.SelectContainer_buttons, ...props.style}}>{props.children} </View>
-      </TouchableOpacity>
-
+        <View style={{...Styles.SelectContainer, ...props.style}}>{props.children} </View>
+      
   );
 }
-export default Select_Box*/
+export default Select_Box
