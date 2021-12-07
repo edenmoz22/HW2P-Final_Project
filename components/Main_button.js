@@ -6,15 +6,13 @@ export const Main_button = (props) =>
  {
   return (
       <TouchableOpacity activeOpacity={0.6} style={{...Styles.containerButtons , ...props.style}} onPress={props.onPress}>
-        <View style={Styles.containerButton}>
+        <View style={{...Styles.containerButton, ...props.style}}>
             <Text style={Styles.textstyle}>{props.children}</Text>
         </View>
       </TouchableOpacity>
 
   );
 }
-
-
 
 export default Main_button
 
